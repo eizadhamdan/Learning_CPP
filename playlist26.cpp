@@ -26,6 +26,6 @@ int main()
 }
 /*
 the stack is usually quite small in size
-depending on the platform and the compiler, the stackcould be around 1 or 2 MB
+depending on the platform and the compiler, the stack could be around 1 or 2 MB
 so if we have a lot of objects that need to be instantiated then there's a chance we might run out of stack memory
 */
